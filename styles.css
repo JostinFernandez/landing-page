@@ -1,7 +1,8 @@
-body, h1, p, a {
+body, h1, h2, h3, p, a, img {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    color: inherit;
 }
 
 body {
@@ -16,35 +17,125 @@ header {
     background-color: #86B6B3;
     color: white;
     padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header h1 {
-    font-family: 'Cardo', serif;
-    margin-bottom: 10px;
+header .logo img {
+    height: 50px;
 }
 
 nav a {
     color: white;
-    margin: 0 10px;
+    margin: 0 15px;
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 main {
     margin: 20px 0;
 }
 
-main p {
+#intro p {
     margin-bottom: 20px;
     font-size: 18px;
 }
 
-main img {
+#intro img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#latest-posts {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#latest-posts h2 {
+    font-family: 'Cardo', serif;
+    margin-bottom: 20px;
+}
+
+article {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+article h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+article a {
+    color: #81E1DB;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.see-more {
+    background-color: #81E1DB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#about-me {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about-me h2 {
+    font-family: 'Cardo', serif;
+    margin-bottom: 20px;
+}
+
+#about-me p {
+    font-size: 18px;
+    text-align: left;
 }
 
 footer {
     background-color: #6A8F8C;
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer nav a {
+    color: white;
+    margin: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+footer p {
+    margin-top: 20px;
 }
