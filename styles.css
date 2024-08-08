@@ -241,6 +241,60 @@ nav {
   cursor: pointer;
 }
 
+footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.footer__content {
+  max-width: var(--max-width);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer__logo img {
+  max-width: 50px;
+}
+
+.footer__links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer__links .link a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.footer__socials span {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer__socials span:hover {
+  color: var(--secondary-color);
+}
+
+.footer__copy {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
 @media (width < 1200px) {
   .search {
     max-width: 235px;
