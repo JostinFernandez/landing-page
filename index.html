@@ -1,71 +1,99 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>My Health Blog</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="brand-logo.png" alt="Logo">
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="nav__logo">
+          <img src="assets/logo.png" alt="logo" />
         </div>
+        <ul class="nav__links">
+          <li class="link"><a href="#">Home</a></li>
+          <li class="link"><a href="#">Blog</a></li>
+          <li class="link"><a href="#">About</a></li>
+          <li class="link"><a href="#">Contact Us</a></li>
+          <li class="link"><a href="#">Sign In</a></li>
+          <li class="link"><a href="#">Subscribe</a></li>
+        </ul>
+        <div class="search">
+          <input type="text" placeholder="Search" />
+          <span><i class="ri-search-line"></i></span>
+        </div>
+        <div class="login">
+          <span><i class="ri-user-3-fill"></i></span>
+          Log In
+        </div>
+      </nav>
+      <div class="intro">
+        <h1>Welcome to My Health Blog</h1>
+        <p>Your go-to source for reliable health information, practical tips, and motivational content!</p>
+      </div>
+      <div class="latest-posts">
+        <h2>Latest Blog Posts</h2>
+        <div class="posts-grid">
+          <div class="post-card">
+            <img src="assets/post-1.jpg" alt="post image" />
+            <div class="card__content">
+              <h4>Post Title 1</h4>
+              <p>A short description of the first blog post. It provides an overview and entices the reader to click through to read the full post.</p>
+              <button class="btn">Read More</button>
+            </div>
+          </div>
+          <div class="post-card">
+            <img src="assets/post-2.jpg" alt="post image" />
+            <div class="card__content">
+              <h4>Post Title 2</h4>
+              <p>A short description of the second blog post. It provides an overview and entices the reader to click through to read the full post.</p>
+              <button class="btn">Read More</button>
+            </div>
+          </div>
+          <div class="post-card">
+            <img src="assets/post-3.jpg" alt="post image" />
+            <div class="card__content">
+              <h4>Post Title 3</h4>
+              <p>A short description of the third blog post. It provides an overview and entices the reader to click through to read the full post.</p>
+              <button class="btn">Read More</button>
+            </div>
+          </div>
+        </div>
+        <button class="see-more">See More</button>
+      </div>
+      <div class="about-me">
+        <h2>About Me</h2>
+        <p>Here, you can write a brief bio about yourself. Share your background, interests, and why you started this health blog.</p>
+      </div>
+      <footer>
         <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#blog">Blog</a>
-            <a href="#contact">Contact</a>
-            <a href="#signin">Sign In</a>
-            <a href="#subscribe">Subscribe</a>
-        </nav>
-    </header>
-    <main>
-        <section id="intro">
-            <p>This is a brief introduction to my health blog. I'm excited to share reliable health information, practical tips, and motivational content with you!</p>
-            <img src="path-to-your-image.jpg" alt="Healthy lifestyle image">
-        </section>
-        <section id="latest-posts">
-            <h2>Latest Blog Posts</h2>
-            <article>
-                <h3>Post Title 1</h3>
-                <p>A short description of the first blog post. It provides an overview and entices the reader to click through to read the full post.</p>
-                <a href="#">Read more...</a>
-            </article>
-            <article>
-                <h3>Post Title 2</h3>
-                <p>A short description of the second blog post. It provides an overview and entices the reader to click through to read the full post.</p>
-                <a href="#">Read more...</a>
-            </article>
-            <article>
-                <h3>Post Title 3</h3>
-                <p>A short description of the third blog post. It provides an overview and entices the reader to click through to read the full post.</p>
-                <a href="#">Read more...</a>
-            </article>
-            <button class="see-more">See More</button>
-        </section>
-        <section id="about-me">
-            <h2>About Me</h2>
-            <p>Here, you can write a brief bio about yourself. Share your background, interests, and why you started this health blog.</p>
-        </section>
-    </main>
-    <footer>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#blog">Blog</a>
-            <a href="#contact">Contact</a>
-            <a href="#signin">Sign In</a>
-            <a href="#subscribe">Subscribe</a>
+          <ul class="nav__links">
+            <li class="link"><a href="#">Home</a></li>
+            <li class="link"><a href="#">Blog</a></li>
+            <li class="link"><a href="#">About</a></li>
+            <li class="link"><a href="#">Contact Us</a></li>
+            <li class="link"><a href="#">Sign In</a></li>
+            <li class="link"><a href="#">Subscribe</a></li>
+          </ul>
         </nav>
         <div class="contact-info">
-            <p>Contact me at: myemail@example.com</p>
-            <p>Phone: (123) 456-7890</p>
-            <div class="social-media">
-                <a href="https://facebook.com">Facebook</a>
-                <a href="https://twitter.com">Twitter</a>
-                <a href="https://instagram.com">Instagram</a>
-            </div>
+          <p>Contact me at: myemail@example.com</p>
+          <p>Phone: (123) 456-7890</p>
+        </div>
+        <div class="social-media">
+          <span><i class="ri-twitter-fill"></i></span>
+          <span><i class="ri-facebook-fill"></i></span>
+          <span><i class="ri-instagram-line"></i></span>
+          <span><i class="ri-youtube-fill"></i></span>
         </div>
         <p>&copy; 2024 My Health Blog</p>
-    </footer>
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
