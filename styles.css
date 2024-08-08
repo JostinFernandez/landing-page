@@ -228,7 +228,7 @@ nav {
   margin-bottom: 1rem;
   font-size: 0.9rem;
   line-height: 1.5rem;
-  color: var(--text-light);
+  color:(--text-dark);
 }
 
 .card__content .btn {
@@ -258,7 +258,7 @@ footer {
 }
 
 .footer__logo img {
-  max-width: 50px;
+  max-width: 350px;
 }
 
 .footer__links {
